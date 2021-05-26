@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MTG Score Keeper</title>
-</head>
-<body>
-  <h1>The Score is <span>0</span> to <span>0</span></h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MTG Score Keeper</title>
+  </head>
+  <body>
+    <h1><span id="player1Score">20</span> to <span id="player2Score">20</span></h1>
+    <div id="player1LifeChange">
+      <h2>Player 1</h2>
+      <button id="add1Player1">+1 Life</button>
+      <button id="minus1Player1">-1 Life</button>
+    </div>
+    <div id="player2LifeChange">
+      <h2>Player 2</h2>
+      <button id="add1Player2">+1 Life</button>
+      <button id="minus1Player2">-1 Life</button>
+    </div>
+    <div>
+      <button id="gameReset">Game Reset</button>
+    </div>
 
-  <script src="app.js"></script>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>
